@@ -34,15 +34,12 @@ function formatMessage(newEmployee) {
   return `Let's all welcome *${name}* (${pronouns}, ${city}) to TTS!\n\nLet's learn more about ${preferredFirstName}:\n- *Favorite movie*: ${favoriteMovie}\n- *Fun fact*: ${funFact}`;
 }
 
-if (process.argv.length > 2) {
-  console.log("This is process.argv", process.argv);
-  const addedFiles = process.argv.slice(2);
+const addedFiles = process.argv.slice(2);
 
-  addedFiles.forEach((addedFile) => {
-    let rawdata = fs.readFileSync(addedFile);
-    let newEmployee = JSON.parse(rawdata);
+addedFiles.forEach((addedFile) => {
+  let rawdata = fs.readFileSync(addedFile);
+  let newEmployee = JSON.parse(rawdata);
 
-    console.log("Added file", addedFile);
-    publishMessage(formatMessage(newEmployee));
-  });
-}
+  console.log("Added file", addedFile);
+  publishMessage(formatMessage(newEmployee));
+});
