@@ -35,6 +35,7 @@ function formatMessage(newEmployee) {
 }
 
 if (process.argv.length > 2) {
+  console.log("This is process.argv", process.argv);
   const addedFiles = process.argv.slice(2);
 
   addedFiles.forEach((addedFile) => {
