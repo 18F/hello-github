@@ -24,13 +24,8 @@ jobs:
         with: 
           files: welcomes/*
 
-      - name: List all added files
-        run: |
-          for file in "${{ steps.changed-files.outputs.added_files }}"; do
-            echo "$file was added"
-          done
-
       - name: Run JS Script
+        if: steps.changed-files.outputs.added_files != ''
         run: node .github/scripts/sendMessage.js "${{ steps.changed-files.outputs.added_files}}"
         env:
           API_KEY: ${{ secrets.API_KEY }}
