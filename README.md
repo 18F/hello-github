@@ -5,6 +5,8 @@ GitHub. It encourages learning by doing: every new employee is supposed to make
 a pull request in this repository and see a welcome message posted to the
 `#welcomes` slack channel!
 
+Note: For implementing this in the TTS workspace, see [Greg's message about webhooks](https://gsa-tts.slack.com/archives/C02AFQAQDPB/p1628686809000100?thread_ts=1628634575.003600&cid=C02AFQAQDPB); it might be more promising than what I've done her with a Slack app.
+
 ## Instructions
 
 This process is meant to familarize employees with the essentials of GitHub _for TTS_: repositories, issues, commits, pull requests, and merges. GitHub is an essential tool at TTS, and we make training a part of new employee onboarding. 
