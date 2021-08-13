@@ -35,8 +35,45 @@ Click on the 'Assignees' text, and when prompted enter both you and your partner
 
 ### Step 3: Creating and editing a file
 
-### Step 4: Commits and pull requests
+Now it's time to learn how to create and edit a file using GitHub's web interface. Navigate back to the [repository's main page](https://github.com/18F/hello-github). Click on the 'welcomes' folder. 
 
-### Step 5: Approval
+On this screen, you should see a list of previously-created `<person>.json` files: feel free to click on any of these files to see what you'll be creating. When you're ready, click on the 'Add file' button and then click 'Create new file.'
 
-### Step 6: Merge!
+At this point, you'll want to name your new file. Follow the convention of `<first_name>-<last_name>.json`. You'll be creating only one person's file now, but not to worry -- you'll fill out your partner's in a moment.
+
+You'll now be creating a JSON file with some information about you. Your teammates at TTS are eager to know more about you, so let's tell them! Follow this structure to create your file:
+
+```json
+{
+  "name": "<insert full name here>",
+  "preferredFirstName": "<preferred first name>",
+  "pronouns": "<pronouns>",
+  "city": "<your city and state>",
+  "favoriteMovie": "<what's your favorite movie?>",
+  "funFact": "<share a fun fact about yourself>"
+}
+```
+
+Once you're done, scroll down to where you see 'Commit new file.'
+
+### Step 4: Commits
+
+TODO: Describe what a commit is, have them commit the file and create a new branch. 
+
+### Step 5: Pull requests
+
+TODO: Describe a pull request, have them create a pull request and appropriately title it. Then have the partner merge it. 
+
+### Step 6: Approval
+
+TODO: Describe what an approval is.
+
+### Step 7: Merge the pull request
+
+TODO: Describe what merging is. 
+
+TODO: Repeat steps 3-7 for the other partner.
+
+### Step 8: Close the issue
+
+TODO: Describe the importance of closing out tickets. Once both partners have received their welcome message via Slack, close the issue they've created. 
