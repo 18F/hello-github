@@ -1,29 +1,42 @@
-# hello github
+# Hello, GitHub.
 
-This is an instruction repository designed to help new TTS employees onboard to
+`hello-github` is an instruction repository designed to help new TTS employees onboard to
 GitHub. It encourages learning by doing: every new employee is supposed to make
 a pull request in this repository and see a welcome message posted to the
 `#welcomes` slack channel!
 
-## Who
+## Instructions
 
-New employees at TTS who don't feel comfortable in GitHub.
+This process is meant to familarize employees with the essentials of GitHub _for TTS_: repositories, issues, commits, pull requests, and merges. GitHub is an essential tool at TTS, and we make training a part of new employee onboarding. 
 
-## Why
+Logistically, this process is meant to be done with a partner. This will hopefully create a more open and encouraging environment for learning.
 
-GitHub is an essential tool to our work at TTS. We use it to host nearly all of
-our code, most of which is open-source. However, comfort levels with GitHub vary
-widely across TTS. And especially given that the [TTS RFC
-process](https://github.com/18f/tts-rfc) is now
-conducted mostly on GitHub, it is imperative that all TTS staff feel comfortable
-with this tool.
+### Step 1: Repositories 
 
-## What
+You are currently looking at the `18F/hello-github` repository. A _repository_ is a home for a project: it normally has lots of files that many people contribute to. You could think about it like a folder on your computer, except that this folder is hosted in the cloud and has (potentiall) many other readers and writers. Repositories can be used for software and non-software projects: for example, [`18F/handbook`](https://github.com/18F/handbook) stores the website code and content for the Handbook, while [`18F/tts-rfc`](https://github.com/18F/tts-rfc) houses the Request For Comments (RFCs) process here at TTS.
 
-We have a number of goals with this approach to learning GitHub:
+### Step 2: Issues
 
-- Goal 1
-- Another goal
-- A third goal
+Now we'll familiarize ourselves with Issues. [GitHub Issues](hhttps://guides.github.com/features/issues/) are used for tracking work in a given repository; if you're familiar with project management tools like Jira or Trello, issues are very similar to those tools' "tickets." At TTS, you'll see a lot of work -- and discussions around that work -- documented in issues, so they're pretty important.
 
-## How
+Let's create an issue of our own. Between you and your partner, head over to this repository's [issues page](https://github.com/18F/hello-github/issues). Once you're there, click the 'New issue' button. You should see a screen that has two text fields: one for the "Title" and another for "Leave a comment."
+
+Enter the following text in the title prompt: "Create welcome message for <Person #1 first name> and <Person #2 first name>".
+
+Enter the following text in the comment prompt: "<Person #1 first name> and <Person #2 first name> are new employees at TTS. They should be welcomed over Slack!"
+
+#### Assignees
+
+Now we're on the last step. Once your title and comment are filled out, it's time to assign this issue to one or more persons. And since you will be the one completing the process, you should assign yourself and your partner!
+
+Click on the 'Assignees' text, and when prompted enter both you and your partners GitHub usernames. Once you've done this, click 'Submit new issue' and you're all done for this step! Congratulations! 
+
+> One way to check that you've copmleted this successfully is by comparing the issue you've created to [this one](https://github.com/18F/hello-github/issues/2).
+
+### Step 3: Creating and editing a file
+
+### Step 4: Commits and pull requests
+
+### Step 5: Approval
+
+### Step 6: Merge!
